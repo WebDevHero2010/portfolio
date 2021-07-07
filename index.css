@@ -1,0 +1,74 @@
+body {
+    background-color:#F3F3F4;
+}
+#page-body{
+    background-color:#F3F3F4;
+}
+#side-bar{
+    background-color:#14110F;
+}
+
+#pro-img{
+    background-color: #14110F;
+}
+
+#navItemSec{
+    display:flex;
+    background-color: #14110F;
+}
+#navItem2{
+    background-color: #14110F;
+    align-items: center;
+}
+#proIMG{
+    background-color: #14110F;
+}
+
+#projectBtn{
+    background-color: #2191FB;
+    color:white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#aboutBtn{
+    background-color: #BA274A;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#contactBtn{
+    background-color:#4B7F52;
+    color:white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#skills-sec h1{
+    padding-top:2%;
+    display:flex;
+    justify-content: center;
+}
+
+#icon-sec {
+    display:flex;
+    justify-content: space-between;
+}
