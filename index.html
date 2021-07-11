@@ -27,8 +27,8 @@
     />
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
+    <div class="container-fluid overflow-hidden">
+      <div class="row vh-100 overflow-auto">
         <div class="col-sm-auto sticky-top" id="side-bar">
           <div
             class="
@@ -50,7 +50,7 @@
               <img
                 src="./Assets/profile-img.jpg"
                 alt="Profile Picture"
-                class="rounded-circle img-fluid"
+                class="rounded-circle img-fluid visible-xs visible-sm"
                 width="150"
                 height="150"
               />
@@ -79,7 +79,7 @@
                   data-bs-placement="right"
                   data-bs-original-title="Name"
                 >
-                  <h4 class="text-justify">Marcus Elliott</h4>
+                  <h4 class="visible-xs visible-sm">Marcus Elliott</h4>
                 </a>
               </li>
               <li>
@@ -121,17 +121,20 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm p-0 min-vh-100 d-block" id="page-body">
+        <div class="col-sm p-0 min-vh-100" id="page-body">
           <div>
             <picture>
               <img
-              src="./Assets/image01.jpg"
-              alt="Portfolio Top img"
-              class="img-fluid"
-              id="top-img"
-            />
+                src="./Assets/image01.jpg"
+                alt="Portfolio Top img"
+                class="img-fluid"
+                id="top-img"
+              />
+              <div
+                class="mask"
+                style="background-color: rgba(0, 0, 0, 0.6)"
+              ></div>
             </picture>
-
           </div>
 
           <div id="skills-sec" class="col-sm-auto">
@@ -143,7 +146,7 @@
               <span style="font-size: 6em; color: #039be5">
                 <i class="fab fa-css3-alt" id="cssIcon"></i>
               </span>
-              <span style="font-size: 6em; color: #FFD600">
+              <span style="font-size: 6em; color: #ffd600">
                 <i class="fab fa-js" id="jsIcon"></i>
               </span>
               <span style="font-size: 6em; color: #000000">
@@ -153,7 +156,107 @@
                 <i class="fab fa-python" id="pythonIcon"></i>
               </span>
             </div>
-            
+          </div>
+          <div>
+            <h1 id="my-projects">My Projects</h1>
+            <section
+              class="
+                row
+                row-cols-1
+                row-cols-sm-2
+                row-cols-md-2
+                row-cols-lg-3
+                row-cols-xl-3
+              "
+            >
+              <div class="col mb-4">
+                <div class="card">
+                  <img
+                    width="500px"
+                    height="350px"
+                    src="./Assets/Astronomy Picture of the Day.png"
+                    class="card-img-top"
+                    alt="NASA API Preview IMG"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">NASA - Picture of the Day</h5>
+                    <p class="card-text">
+                      This is a NASA API Project I worked on at Eleven Fifty
+                      Academy. The application fetches Data from NASA's API and
+                      displays the image of the day and the user can click a
+                      button that will launch a bootstrap Modal with additional
+                      information.
+                    </p>
+                    <div class="d-flex justify-content-between" id="btn-sec">
+                      <button type="button" class="btn btn-primary btn-lg">
+                        View APP
+                      </button>
+                      <button type="button" class="btn btn-success btn-lg">
+                        Code
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card">
+                  <img
+                    width="500px"
+                    height="350px"
+                    src="./Assets/Studio Ghibli API.png"
+                    class="card-img-top"
+                    alt="Studio Ghibli API Project"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Studio Ghibli Movie Card Gallery</h5>
+                    <p class="card-text">
+                      This is a API project I did for an assignment at Eleven
+                      Fifty. The application fetches data from the Studio Ghibli
+                      API and displays the information in bootstrap cards via a
+                      Gallery type layout so it can fill the display on large
+                      screens and little screens.
+                    </p>
+                    <div class="d-flex justify-content-between" id="btn-sec">
+                      <button type="button" class="btn btn-primary btn-lg">
+                        View APP
+                      </button>
+                      <button type="button" class="btn btn-success btn-lg">
+                        Code
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card">
+                  <img
+                    width="500px"
+                    height="350px"
+                    src="./Assets/Marcus Elliott - API Project 2.png"
+                    class="card-img-top"
+                    alt="Studio Ghibli API Project"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Weather Status APP</h5>
+                    <p class="card-text">
+                      This is another API project I did for Eleven Fifty
+                      Academy. The Appliccation automatically goes out and
+                      fetches the user's current weather status and gives them
+                      various stats such as temperature, humidity, and wind
+                      speed.
+                    </p>
+                    <div class="d-flex justify-content-between" id="btn-sec">
+                      <button type="button" class="btn btn-primary btn-lg">
+                        View APP
+                      </button>
+                      <button type="button" class="btn btn-success btn-lg">
+                        Code
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>

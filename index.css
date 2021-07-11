@@ -63,7 +63,9 @@ body {
 }
 
 #skills-sec h1{
-    padding-top:2%;
+    margin-top:2%;
+    margin-bottom:2%;
+    text-decoration: underline;
     display:flex;
     justify-content: center;
 }
@@ -71,4 +73,14 @@ body {
 #icon-sec {
     display:flex;
     justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#my-projects {
+    margin-top:2%;
+    margin-bottom:2%;
+    text-decoration: underline;
+    display:flex;
+    justify-content: center;
 }
