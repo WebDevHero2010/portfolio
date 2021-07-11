@@ -50,7 +50,7 @@
               <img
                 src="./Assets/profile-img.jpg"
                 alt="Profile Picture"
-                class="rounded-circle img-fluid visible-xs visible-sm"
+                class="rounded-circle img-fluid hidden-sm"
                 width="150"
                 height="150"
               />
@@ -79,12 +79,12 @@
                   data-bs-placement="right"
                   data-bs-original-title="Name"
                 >
-                  <h4 class="visible-xs visible-sm">Marcus Elliott</h4>
+                  <h4 class="hidden-xs">Marcus Elliott</h4>
                 </a>
               </li>
               <li>
                 <a
-                  href=""
+                  href="#my-projects"
                   class="nav-link py-3 px-2 link-light text-decoration-none"
                   title="Projects"
                   data-bs-toggle="tooltip"
@@ -121,38 +121,32 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm p-0 min-vh-100" id="page-body">
-          <div>
-            <picture>
-              <img
-                src="./Assets/image01.jpg"
-                alt="Portfolio Top img"
-                class="img-fluid"
-                id="top-img"
-              />
-              <div
-                class="mask"
-                style="background-color: rgba(0, 0, 0, 0.6)"
-              ></div>
-            </picture>
+        <div class="col d-flex flex-column h-100 p-0" id="page-body">
+          <div class="img-mask">
+            <img
+              src="./Assets/image01.jpg"
+              alt="Portfolio Top img"
+              class="img-fluid"
+              id="top-img"
+            />
           </div>
 
           <div id="skills-sec" class="col-sm-auto">
             <h1 id="skills-h1">My Skills</h1>
             <div id="icon-sec">
-              <span style="font-size: 6em; color: #e65100">
+              <span style="font-size: 4em; color: #e65100">
                 <i class="fab fa-html5" id="htmlIcon"></i>
               </span>
-              <span style="font-size: 6em; color: #039be5">
+              <span style="font-size: 4em; color: #039be5">
                 <i class="fab fa-css3-alt" id="cssIcon"></i>
               </span>
-              <span style="font-size: 6em; color: #ffd600">
+              <span style="font-size: 4em; color: #ffd600">
                 <i class="fab fa-js" id="jsIcon"></i>
               </span>
-              <span style="font-size: 6em; color: #000000">
+              <span style="font-size: 4em; color: #000000">
                 <i class="fab fa-github" id="githubIcon"></i>
               </span>
-              <span style="font-size: 6em; color: #000000">
+              <span style="font-size: 4em; color: #000000">
                 <i class="fab fa-python" id="pythonIcon"></i>
               </span>
             </div>
@@ -187,13 +181,25 @@
                       button that will launch a bootstrap Modal with additional
                       information.
                     </p>
-                    <div class="d-flex justify-content-between" id="btn-sec">
-                      <button type="button" class="btn btn-primary btn-lg">
-                        View APP
-                      </button>
-                      <button type="button" class="btn btn-success btn-lg">
-                        Code
-                      </button>
+                    <div class="d-flex justify-content-between">
+                      <a
+                        href="https://webdevhero2010.github.io/NASA-API/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button type="button" class="btn btn-primary btn-lg">
+                          View APP
+                        </button>
+                      </a>
+                      <a
+                        href="https://github.com/WebDevHero2010/NASA-API"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button type="button" class="btn btn-success btn-lg">
+                          Code
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -216,13 +222,25 @@
                       Gallery type layout so it can fill the display on large
                       screens and little screens.
                     </p>
-                    <div class="d-flex justify-content-between" id="btn-sec">
-                      <button type="button" class="btn btn-primary btn-lg">
-                        View APP
-                      </button>
-                      <button type="button" class="btn btn-success btn-lg">
-                        Code
-                      </button>
+                    <div class="d-flex justify-content-between">
+                      <a
+                        href="https://webdevhero2010.github.io/SG-API-PROJ01/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button type="button" class="btn btn-primary btn-lg">
+                          View APP
+                        </button>
+                      </a>
+                      <a
+                        href="https://github.com/WebDevHero2010/SG-API-PROJ01"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button type="button" class="btn btn-success btn-lg">
+                          Code
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -245,18 +263,40 @@
                       various stats such as temperature, humidity, and wind
                       speed.
                     </p>
-                    <div class="d-flex justify-content-between" id="btn-sec">
-                      <button type="button" class="btn btn-primary btn-lg">
-                        View APP
-                      </button>
-                      <button type="button" class="btn btn-success btn-lg">
-                        Code
-                      </button>
+                    <div class="d-flex justify-content-between">
+                      <a
+                        href="https://webdevhero2010.github.io/API-PJ-02/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button type="button" class="btn btn-primary btn-lg">
+                          View APP
+                        </button>
+                      </a>
+                      <a
+                        href="https://github.com/WebDevHero2010/API-PJ-02"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button type="button" class="btn btn-success btn-lg">
+                          Code
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
+            <div class="py -5 text-center" id="section-2">
+              <h1 id="about">About Me</h1>
+              <div class="row py-lg-3">
+                <div class="col">
+                  <p>
+                    Hello My Name is Marcus Elliott and I am a web developer. I have been in the technology field for over 7 years and love learning new technologies. During these last 7 years I have been working in IT and have worked my way from being a tier 1 helpdesk technican to IT Director. That includes maintaining Data Center Equipment such as cisco switches, palo alto & fireeye firewalls, battery backups and email archivers. I also help out my other co-workers with general tasks as well such as refreshing computers, working on helpdesk tickets and talking with users about issues and coming up with solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

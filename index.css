@@ -1,4 +1,4 @@
-body {
+body,html{
     background-color:#F3F3F4;
 }
 #page-body{
@@ -62,9 +62,13 @@ body {
     cursor: pointer;
 }
 
+#skills-sec {
+    background-color:#F3F3F4;
+}
+
 #skills-sec h1{
-    margin-top:2%;
-    margin-bottom:2%;
+    padding-top:2%;
+    padding-bottom:2%;
     text-decoration: underline;
     display:flex;
     justify-content: center;
@@ -78,9 +82,29 @@ body {
 }
 
 #my-projects {
-    margin-top:2%;
-    margin-bottom:2%;
+    margin:0;
+    background-color:#F3F3F4;
+    padding: 2%;
     text-decoration: underline;
+    display:flex;
+    justify-content: center;
+}
+
+section {
+    background-color:#F3F3F4;
+}
+
+#about {
+    margin: 0;
+    display:flex;
+    justify-content: center;
+}
+
+#section-2 {
+    background-color:#F3F3F4;
+}
+
+#section-2 .p {
     display:flex;
     justify-content: center;
 }
