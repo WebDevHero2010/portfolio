@@ -1,9 +1,3 @@
-body,html{
-    background-color:#F3F3F4;
-}
-#page-body{
-    background-color:#F3F3F4;
-}
 #side-bar{
     background-color:#14110F;
 }
@@ -62,10 +56,6 @@ body,html{
     cursor: pointer;
 }
 
-#skills-sec {
-    background-color:#F3F3F4;
-}
-
 #skills-sec h1{
     padding-top:2%;
     padding-bottom:2%;
@@ -83,15 +73,10 @@ body,html{
 
 #my-projects {
     margin:0;
-    background-color:#F3F3F4;
     padding: 2%;
     text-decoration: underline;
     display:flex;
     justify-content: center;
-}
-
-section {
-    background-color:#F3F3F4;
 }
 
 #about {
@@ -100,11 +85,20 @@ section {
     justify-content: center;
 }
 
-#section-2 {
-    background-color:#F3F3F4;
-}
-
 #section-2 .p {
     display:flex;
     justify-content: center;
+}
+
+#contact-sec {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1%;
+
+}
+
+#contact-form {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
