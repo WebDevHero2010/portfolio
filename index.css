@@ -22,7 +22,7 @@
     background-color: #2191FB;
     color:white;
     border: none;
-    padding: 15px 32px;
+    padding: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -35,7 +35,7 @@
     background-color: #BA274A;
     color: white;
     border: none;
-    padding: 15px 32px;
+    padding: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -47,7 +47,7 @@
     background-color:#4B7F52;
     color:white;
     border: none;
-    padding: 15px 32px;
+    padding: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -93,12 +93,11 @@
 #contact-sec {
     display:flex;
     justify-content: center;
-    margin-bottom: 1%;
 
 }
 
 #contact-form {
     display:flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
