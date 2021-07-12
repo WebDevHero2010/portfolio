@@ -83,6 +83,7 @@
     margin: 0;
     display:flex;
     justify-content: center;
+    text-decoration: underline;
 }
 
 #section-2 .p {
@@ -93,6 +94,7 @@
 #contact-sec {
     display:flex;
     justify-content: center;
+    text-decoration: underline;
 
 }
 
