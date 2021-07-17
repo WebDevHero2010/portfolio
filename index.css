@@ -125,3 +125,21 @@
     border-radius: 5px;
     transform: translate(-50%, -50%);
 }
+
+#projectBtn:hover
+{
+background-image:none;
+background-color:#1b79d3;
+}
+
+#aboutBtn:hover
+{
+background-image:none;
+background-color:#951f3b;
+}
+
+#contactBtn:hover
+{
+background-image:none;
+background-color:#3b6341;
+}
